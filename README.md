@@ -16,6 +16,7 @@
    7.2. Save `ss.json` as `/etc/shadowsocks-libev/config.json`.
     Replace **server_port** and **password** in `ss.json` with your own choices.
    7.3. example of ss.json :
+   ```
        {
           "server":"0.0.0.0",
           "port_password":{
@@ -29,7 +30,7 @@
           "fast_open":true,
           "nameserver":"8.8.8.8"
        }
-
+    ```
        and you can use ss-manger to lauch the config json by doing:
 
        nohup ss-manager -c /etc/shadowsocks-libev/ss.json -u manager.json &
