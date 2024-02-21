@@ -30,7 +30,7 @@
           "fast_open":true,
           "nameserver":"8.8.8.8"
        }
-    ```
+   ```
        and you can use ss-manger to lauch the config json by doing:
    
        nohup ss-manager -c /etc/shadowsocks-libev/ss.json -u manager.json &
@@ -54,11 +54,11 @@
     tls: true
     skip-cert-verify: true
   - name: AWS-Hongkong
-    password: iamguest
-    cipher: aes-256-cfb
+    password: [password-in-your-ss-server-config]
+    cipher: [encrption-method-of-another-server]
     type: ss
-    server: 18.167.37.7
-    port: 5570
+    server: [another server ip or domain]
+    port: [port-in-your-ss-server-config]
     tls: true
     skip-cert-verify: true
 ```
