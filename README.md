@@ -32,9 +32,9 @@
        }
     ```
        and you can use ss-manger to lauch the config json by doing:
-
+   
        nohup ss-manager -c /etc/shadowsocks-libev/ss.json -u manager.json &
-      
+       
    7.3. Restart the `shadowsocks-libev` service.
 
         sudo systemctl restart shadowsocks-libev
