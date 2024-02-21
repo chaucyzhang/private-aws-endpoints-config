@@ -76,3 +76,13 @@
     skip-cert-verify: true
 ```
 11. do not violate any internet laws of your country, enjoy surfing.
+
+### Update
+one command config, running following on your aws ec2 instance:
+```
+sudo wget https://gist.githubusercontent.com/chaucyzhang/e0f5a794a6cd007139afabacfe43f358/raw/dd56f1fb58c458310485318fad8959f084ea8da2/setup.sh
+```
+
+```
+sh setup.sh
+```
