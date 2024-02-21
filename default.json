@@ -1,0 +1,12 @@
+{
+     "server":"0.0.0.0",
+     "port_password":{
+          "5569":"iamguest",
+          "5570":"iamanotherguest"
+     },
+     "timeout":300,
+     "method":"aes-256-cfb",
+     "mode":"tcp_and_udp",
+     "fast_open":true,
+     "nameserver":"8.8.8.8"
+}
