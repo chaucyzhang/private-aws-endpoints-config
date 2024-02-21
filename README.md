@@ -54,6 +54,7 @@
 9. change security group settings on aws website:
    8.1 add a rule to allow internet calls to some specific ports (the ports from shadowsocks server config.json) and save
    8.2 the security group example: ![image](https://github.com/chaucyzhang/private-aws-endpoints-config/assets/937912/bd029f8f-4c37-4d6f-b522-a10d6fc6914a)
+   
 10. connect your vps server by using a shadowsocks client, the following proxies should be add your ss client tool config file(yml or yaml):
 ```
   proxies:
