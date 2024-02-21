@@ -1,7 +1,8 @@
 #!/bin/bash
 yes Y | sudo apt update;
 yes Y | sudo apt install shadowsocks-libev;
-nohup ss-manager -c /etc/shadowsocks-libev/ss.json -u manager.json &;
+wget https://github.com/chaucyzhang/private-aws-endpoints-config/blob/main/default.json -P /etc/shadowsocks-libev
+nohup ss-manager -c /etc/shadowsocks-libev/default.json -u manager.json &;
 sudo systemctl restart shadowsocks-libev;
 sudo systemctl status shadowsocks-libev;
 SYSCTL_CONF=/etc/sysctl.d/60-tcp-bbr.conf;
